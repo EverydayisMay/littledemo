@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>宇宙</title>
+		<style type="text/css">
+			#cosmos{width:700px;height:700px;background:#ddd;border-radius:50%;margin:0 auto;position:relative;}
+			#cosmos>div{position:absolute;top:200px;left:200px;}
+			@-webkit-keyframes scroll{
+				0%{transform:rotate(0deg);}
+				100%{transform:rotate(360deg);}
+			}
+			#d1{width:300px;height:300px;z-index:1;border-radius:100%;animation:scroll 15s linear infinite;}
+			#d1>span{text-align:center;color:#fff;position:absolute;top:-15px;left:50%;background:blue;width:60px;height:60px;border-radius:100%;animation:scroll 10s linear infinite;}
+			b{text-align:center;color:#fff;position:absolute;top:-30px;left:50%;background:green;width:20px;height:20px;border-radius:100%;animation:scroll 5s linear infinite;}
+			#d2{width:400px;height:400px;}
+		</style>
+	</head>
+	<body>
+		<div id="cosmos">
+			<div id="d1"><span>6<b>33</b></span></div>
+			<div id="d2"></div>
+		</div>
+
+	</body>
+</html>
